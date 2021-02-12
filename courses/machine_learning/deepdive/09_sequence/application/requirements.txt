@@ -1,6 +1,10 @@
 Flask==0.12.2
 gunicorn==19.7.1
-numpy==1.14.1
-tensorflow==1.5
+numpy==1.16.3
+tensorflow==1.15.4
 tensor2tensor
 google-api-python-client
+bleach>=3.3.0 # not directly required, pinned by Snyk to avoid a vulnerability
+html5lib>=0.99999999 # not directly required, pinned by Snyk to avoid a vulnerability
+pillow>=8.1.0 # not directly required, pinned by Snyk to avoid a vulnerability
+rsa>=4.7 # not directly required, pinned by Snyk to avoid a vulnerability
