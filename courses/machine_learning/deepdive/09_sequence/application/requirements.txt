@@ -4,3 +4,5 @@ numpy==1.14.1
 tensorflow==1.5
 tensor2tensor
 google-api-python-client
+pyasn1>=0.6.2 # not directly required, pinned by Snyk to avoid a vulnerability
+wheel>=0.46.2 # not directly required, pinned by Snyk to avoid a vulnerability
